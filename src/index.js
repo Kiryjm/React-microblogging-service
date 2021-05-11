@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './components/app/';
+import App from './components/app/';
 import reportWebVitals from './reportWebVitals';
 
 class WhoAmI extends Component {
@@ -72,7 +72,7 @@ const All = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <All/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
   );
